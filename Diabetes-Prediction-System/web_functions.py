@@ -12,7 +12,7 @@ def load_data():
     """This function returns the preprocessed data"""
 
     # Load the Diabetes dataset into DataFrame.
-    df = pd.read_csv('diabetes.csv')
+    df = pd.read_csv('Diabetes-Prediction-System/diabetes.csv')
 
     # Perform feature and target split
     X = df[["FastingGlc","AfterGlc", "BloodPressure","SkinThickness","Insulin", "BMI", "GeneticCorr", "Age"]]
