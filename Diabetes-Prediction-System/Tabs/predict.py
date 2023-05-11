@@ -5,7 +5,7 @@ import streamlit as st
 
 # Import necessary functions from web_functions
 from web_functions import predict
-from web-functions import load_data
+from web_functions import load_data
 
 
 def app(df, X, y):
