@@ -18,7 +18,7 @@ def app(df, X, y):
     st.markdown(
         """
             <p style="font-size:25px">
-                This app uses <b style="color:green">Random Forest Classifier</b> for the Early Prediction of Diabetes.
+                This app uses <b style="color:green">Decision Tree Classifier</b> for the Early Prediction of Diabetes.
             </p>
         """, unsafe_allow_html=True)
     
